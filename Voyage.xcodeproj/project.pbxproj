@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E25828B2C94333D001619ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2582892C94333D001619ED /* LaunchScreen.storyboard */; };
+		2E2582932C94412B001619ED /* choiceMadeAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2582902C94412B001619ED /* choiceMadeAudio.mp3 */; };
+		2E2582962C945FE7001619ED /* calm-music-background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2582952C945FE7001619ED /* calm-music-background.mp3 */; };
+		2E29F13F2C97E2B300616ACC /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29F13C2C97E2B300616ACC /* Story.swift */; };
+		2E29F1402C97E2B300616ACC /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29F13D2C97E2B300616ACC /* StoryBrain.swift */; };
+		2E29F1432C97E2BE00616ACC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E29F1412C97E2BE00616ACC /* Main.storyboard */; };
+		2E29F1462C97E2C600616ACC /* VoyageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E29F1442C97E2C600616ACC /* VoyageController.swift */; };
+		AD6F1CCE20EBD3FC00198C34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6F1CCD20EBD3FC00198C34 /* README.md */; };
+		EBB1C7411B9633A60011F5C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */; };
+		EBB1C7481B9633A60011F5C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB1C7471B9633A60011F5C3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E25828A2C94333D001619ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E2582902C94412B001619ED /* choiceMadeAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = choiceMadeAudio.mp3; sourceTree = "<group>"; };
+		2E2582952C945FE7001619ED /* calm-music-background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "calm-music-background.mp3"; sourceTree = "<group>"; };
+		2E29F13C2C97E2B300616ACC /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		2E29F13D2C97E2B300616ACC /* StoryBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+		2E29F1412C97E2BE00616ACC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2E29F1442C97E2C600616ACC /* VoyageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoyageController.swift; sourceTree = "<group>"; };
+		AD6F1CCD20EBD3FC00198C34 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EBB1C73B1B9633A60011F5C3 /* Voyage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voyage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB1C73F1B9633A60011F5C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBB1C7471B9633A60011F5C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBB1C7381B9633A60011F5C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2582922C94412B001619ED /* soundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2E2582902C94412B001619ED /* choiceMadeAudio.mp3 */,
+				2E2582952C945FE7001619ED /* calm-music-background.mp3 */,
+			);
+			path = soundFiles;
+			sourceTree = "<group>";
+		};
+		2E29F13E2C97E2B300616ACC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E29F13C2C97E2B300616ACC /* Story.swift */,
+				2E29F13D2C97E2B300616ACC /* StoryBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E29F1422C97E2BE00616ACC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E29F1412C97E2BE00616ACC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E29F1452C97E2C600616ACC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E29F1442C97E2C600616ACC /* VoyageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBB1C7321B9633A60011F5C3 = {
+			isa = PBXGroup;
+			children = (
+				AD6F1CCD20EBD3FC00198C34 /* README.md */,
+				EBB1C73D1B9633A60011F5C3 /* Voyage */,
+				EBB1C73C1B9633A60011F5C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBB1C73C1B9633A60011F5C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBB1C73B1B9633A60011F5C3 /* Voyage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBB1C73D1B9633A60011F5C3 /* Voyage */ = {
+			isa = PBXGroup;
+			children = (
+				EBB1C7401B9633A60011F5C3 /* AppDelegate.swift */,
+				2E29F13E2C97E2B300616ACC /* Model */,
+				2E29F1422C97E2BE00616ACC /* View */,
+				2E29F1452C97E2C600616ACC /* Controller */,
+				EBB1C7471B9633A60011F5C3 /* Assets.xcassets */,
+				2E2582892C94333D001619ED /* LaunchScreen.storyboard */,
+				EBB1C73F1B9633A60011F5C3 /* Info.plist */,
+				2E2582922C94412B001619ED /* soundFiles */,
+			);
+			path = Voyage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBB1C73A1B9633A60011F5C3 /* Voyage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBB1C75A1B9633A70011F5C3 /* Build configuration list for PBXNativeTarget "Voyage" */;
+			buildPhases = (
+				EBB1C7371B9633A60011F5C3 /* Sources */,
+				EBB1C7381B9633A60011F5C3 /* Frameworks */,
+				EBB1C7391B9633A60011F5C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voyage;
+			productName = Destini;
+			productReference = EBB1C73B1B9633A60011F5C3 /* Voyage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBB1C7331B9633A60011F5C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1540;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					EBB1C73A1B9633A60011F5C3 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = EBB1C7361B9633A60011F5C3 /* Build configuration list for PBXProject "Voyage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBB1C7321B9633A60011F5C3;
+			productRefGroup = EBB1C73C1B9633A60011F5C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBB1C73A1B9633A60011F5C3 /* Voyage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBB1C7391B9633A60011F5C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2582932C94412B001619ED /* choiceMadeAudio.mp3 in Resources */,
+				2E25828B2C94333D001619ED /* LaunchScreen.storyboard in Resources */,
+				AD6F1CCE20EBD3FC00198C34 /* README.md in Resources */,
+				2E29F1432C97E2BE00616ACC /* Main.storyboard in Resources */,
+				EBB1C7481B9633A60011F5C3 /* Assets.xcassets in Resources */,
+				2E2582962C945FE7001619ED /* calm-music-background.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBB1C7371B9633A60011F5C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E29F1462C97E2C600616ACC /* VoyageController.swift in Sources */,
+				2E29F1402C97E2B300616ACC /* StoryBrain.swift in Sources */,
+				EBB1C7411B9633A60011F5C3 /* AppDelegate.swift in Sources */,
+				2E29F13F2C97E2B300616ACC /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E2582892C94333D001619ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E25828A2C94333D001619ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBB1C7581B9633A70011F5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBB1C7591B9633A70011F5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBB1C75B1B9633A70011F5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9PU46DC53;
+				INFOPLIST_FILE = Voyage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshubajaj.Voyage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EBB1C75C1B9633A70011F5C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9PU46DC53;
+				INFOPLIST_FILE = Voyage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepanshubajaj.Voyage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBB1C7361B9633A60011F5C3 /* Build configuration list for PBXProject "Voyage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB1C7581B9633A70011F5C3 /* Debug */,
+				EBB1C7591B9633A70011F5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBB1C75A1B9633A70011F5C3 /* Build configuration list for PBXNativeTarget "Voyage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBB1C75B1B9633A70011F5C3 /* Debug */,
+				EBB1C75C1B9633A70011F5C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBB1C7331B9633A60011F5C3 /* Project object */;
+}
